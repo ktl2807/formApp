@@ -11,7 +11,10 @@ import SwiftUI
 struct formAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MovieList()
+            //ImageView()
+            
+            //TestTestView()
         }
     }
 }

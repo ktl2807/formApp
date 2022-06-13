@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772045732841C3410076EDD8 /* TestTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772045722841C3400076EDD8 /* TestTestView.swift */; };
+		772045752841C4C40076EDD8 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772045742841C4C30076EDD8 /* ImageView.swift */; };
+		772045772841C7C40076EDD8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772045762841C7C40076EDD8 /* ImagePicker.swift */; };
 		77DC6DEA28387B79004582DE /* formAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC6DE928387B79004582DE /* formAppApp.swift */; };
 		77DC6DEC28387B79004582DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC6DEB28387B79004582DE /* ContentView.swift */; };
 		77DC6DEE28387B8D004582DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DC6DED28387B8D004582DE /* Assets.xcassets */; };
@@ -14,6 +17,8 @@
 		77DC6DFB28387B8F004582DE /* formAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC6DFA28387B8F004582DE /* formAppTests.swift */; };
 		77DC6E0528387B8F004582DE /* formAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC6E0428387B8F004582DE /* formAppUITests.swift */; };
 		77DC6E0728387B8F004582DE /* formAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC6E0628387B8F004582DE /* formAppUITestsLaunchTests.swift */; };
+		77DC6E1428388D2D004582DE /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC6E1328388D2D004582DE /* movie.swift */; };
+		77DC6E16283895DF004582DE /* movieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC6E15283895DF004582DE /* movieList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		772045722841C3400076EDD8 /* TestTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTestView.swift; sourceTree = "<group>"; };
+		772045742841C4C30076EDD8 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		772045762841C7C40076EDD8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		77DC6DE628387B79004582DE /* formApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = formApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DC6DE928387B79004582DE /* formAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formAppApp.swift; sourceTree = "<group>"; };
 		77DC6DEB28387B79004582DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,8 @@
 		77DC6E0028387B8F004582DE /* formAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = formAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DC6E0428387B8F004582DE /* formAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formAppUITests.swift; sourceTree = "<group>"; };
 		77DC6E0628387B8F004582DE /* formAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77DC6E1328388D2D004582DE /* movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
+		77DC6E15283895DF004582DE /* movieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				77DC6DE928387B79004582DE /* formAppApp.swift */,
 				77DC6DEB28387B79004582DE /* ContentView.swift */,
+				77DC6E15283895DF004582DE /* movieList.swift */,
+				772045722841C3400076EDD8 /* TestTestView.swift */,
+				772045742841C4C30076EDD8 /* ImageView.swift */,
+				772045762841C7C40076EDD8 /* ImagePicker.swift */,
+				77DC6E1328388D2D004582DE /* movie.swift */,
 				77DC6DED28387B8D004582DE /* Assets.xcassets */,
 				77DC6DEF28387B8D004582DE /* Preview Content */,
 			);
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772045752841C4C40076EDD8 /* ImageView.swift in Sources */,
+				77DC6E1428388D2D004582DE /* movie.swift in Sources */,
+				772045732841C3410076EDD8 /* TestTestView.swift in Sources */,
+				772045772841C7C40076EDD8 /* ImagePicker.swift in Sources */,
 				77DC6DEC28387B79004582DE /* ContentView.swift in Sources */,
+				77DC6E16283895DF004582DE /* movieList.swift in Sources */,
 				77DC6DEA28387B79004582DE /* formAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +440,7 @@
 				DEVELOPMENT_TEAM = LT74J539C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +470,7 @@
 				DEVELOPMENT_TEAM = LT74J539C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
